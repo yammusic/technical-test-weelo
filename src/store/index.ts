@@ -7,10 +7,7 @@ import reducer from './reducers'
 import { Action } from 'redux-actions'
 
 const configureStore = () => {
-  // const navigation = createReactNavigationReduxMiddleware<any>((state: any) => state.nav, 'root')
   const middlewares: Middleware[] = [
-    // navigation,
-    // promise,
     thunk,
   ]
 
