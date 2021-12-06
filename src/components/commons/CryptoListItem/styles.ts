@@ -8,7 +8,7 @@ const styles = StyleSheet.create({
 
   itemRightContainer: {
     flexDirection: 'column',
-    alignItems: 'center',
+    alignItems: 'flex-end',
     justifyContent: 'center',
   },
 
