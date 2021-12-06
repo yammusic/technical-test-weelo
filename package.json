@@ -1,8 +1,7 @@
 {
   "name": "weelo",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "private": true,
-  "typings": "./index.d.ts",
   "scripts": {
     "android": "react-native run-android",
     "ios": "react-native run-ios",
@@ -59,6 +58,14 @@
       "jsx",
       "json",
       "node"
+    ]
+  },
+  "rnpm": {
+    "ios": {},
+    "android": {},
+    "assets": [
+      "./assets/fonts/",
+      "./assets/images/"
     ]
   }
 }
