@@ -12,5 +12,10 @@ declare module '*.png' {
 declare global {
   namespace CryptoCoinApp {
     interface RootState extends RootStateApp {}
+
+    type NavigationProps = {
+      navigation: any
+      route: any
+    }
   }
 }

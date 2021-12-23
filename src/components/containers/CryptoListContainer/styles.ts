@@ -5,6 +5,10 @@ const styles = StyleSheet.create({
     flex: 1,
   },
 
+  listContainer: {
+    flex: 1,
+  },
+
   loadingContainer: {
     flex: 1,
     alignItems: 'center',
@@ -16,6 +20,17 @@ const styles = StyleSheet.create({
     flexDirection: 'column',
     alignItems: 'center',
     justifyContent: 'center',
+  },
+
+  actionsContainer: {
+    padding: 8,
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+  },
+
+  chip: {
+    height: 34,
   },
 })
 

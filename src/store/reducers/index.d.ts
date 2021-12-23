@@ -7,5 +7,6 @@ export type AppReducerState = {
 
 export type CryptoReducerState = {
   cryptos: Crypto[]
-  // favorites: any[]
+  favorites: string[]
+  currentCrypto?: Crypto | null
 }

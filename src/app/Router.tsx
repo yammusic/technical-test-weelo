@@ -7,6 +7,7 @@ import { navigationRef } from './RootNavigation'
 
 import HomeScreen from '../screens/Home.screen'
 import CryptoListScreen from '../screens/CryptoList.screen'
+import CryptoDetailsScreen from '../screens/CryptoDetails.screen'
 import { RouterProps } from './index.d'
 
 const Stack = createNativeStackNavigator()
@@ -37,7 +38,7 @@ class Router extends Component<RouterProps> {
 
             <Stack.Screen
               name="CryptoDetail"
-              component={ CryptoListScreen }
+              component={ CryptoDetailsScreen }
               options={{
                 title: 'Crypto Detail',
               }}
