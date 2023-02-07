@@ -12,7 +12,7 @@
     "adb": "adb reverse tcp:8081 tcp:8081 && adb reverse tcp:8097 tcp:8097"
   },
   "dependencies": {
-    "@react-native-async-storage/async-storage": "^1.15.14",
+    "@react-native-async-storage/async-storage": "^1.17.11",
     "@react-navigation/native": "^6.0.6",
     "@react-navigation/native-stack": "^6.2.5",
     "deepmerge": "^4.2.2",
